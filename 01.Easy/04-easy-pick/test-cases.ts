@@ -21,3 +21,5 @@ interface Expected2 {
   title: string
   completed: boolean
 }
+
+export {}
