@@ -1,5 +1,5 @@
 type MyReadonly<T> = {
-  readonly [k in keyof T]:T[k]
+  readonly [P in keyof T]:T[P]
 }
 
 // key od f T： 拿到类型 T 的所有key

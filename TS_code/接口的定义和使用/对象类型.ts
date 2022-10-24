@@ -5,9 +5,9 @@ interface InfoType {
 }
 
 const stu: InfoType = {
-  name: '李银河',
+  name: '小学生',
   age: 19,
   sno: 1
 } 
 
-// stu.sno = 2
+export {}
